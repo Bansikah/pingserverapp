@@ -1,6 +1,9 @@
 # Ping Server App
 This repository contains the code for the ping server application.
 
+#Status
+![Build & Deploy Frontend](https://github.com/github/docs/actions/workflows/build-frontend.yml/badge.svg) ![Build & Deploy Backend](https://github.com/github/docs/actions/workflows/build-backend.yml/badge.svg) ![Build & Deploy Frontend](https://github.com/github/docs/actions/workflows/release.yml/badge.svg)
+
 ## Prerequisites
 
 Before getting started, make sure you have the following tools installed:
