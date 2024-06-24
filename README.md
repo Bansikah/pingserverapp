@@ -11,7 +11,8 @@ Before getting started, make sure you have the following tools installed:
 - - [sdkman](https://sdkman.io/): Software Development Kit Manager.
 - [Java](https://www.java.com/): Programming Language and runtime environment.
 - [Maven](https://maven.apache.org/): Build automation and dependency management tool.
-- [cargo](https://doc.rust-lang.org/cargo/): Package manager for Rust.
+- [Angular](https://github.com/angular/angular-cli): Install Angular cli.
+- [Traefik](https://doc.traefik.io/traefik/)
 
 ## Installation
 
@@ -47,7 +48,7 @@ To run the e2e-banking-app project locally, follow these steps:
 
 2. Change to the project directory:
    ```bash
-   cd e2e-banking-app
+   cd pingserverapp
    ```
 
 3. Install project dependencies and Start application:
@@ -56,6 +57,10 @@ To run the e2e-banking-app project locally, follow these steps:
       - Change to the project directory:
         ```bash
         cd serverappfrontend
+        ```
+     - Install the Angular CLI globally:
+        ```
+        npm install -g @angular/cli
         ```
       - Install dependencies:
         ```bash
@@ -69,6 +74,10 @@ To run the e2e-banking-app project locally, follow these steps:
         ```bash
         npm start or ng serve
         ```
+     - Acess application on:
+       ```
+       http://localhost:4200/
+       ```
 
    b. For serverappbackend:
       - Change to the project directory:
@@ -87,3 +96,7 @@ To run the e2e-banking-app project locally, follow these steps:
         ```bash
         java -jar target/serverappbackend-0.0.1-SNAPSHOT.jar
         ```
+     - Acess application on:
+       ```
+       http://localhost:8081/
+       ```
