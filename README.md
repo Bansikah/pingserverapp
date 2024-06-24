@@ -103,3 +103,10 @@ To run the e2e-banking-app project locally, follow these steps:
        ```
        http://localhost:8081/
        ```
+## Contributing
+
+Feel free to contribute to this project. Your contributions are welcome and appreciated!
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](http://www.apache.org/licenses/LICENSE-2.0) file for details.
