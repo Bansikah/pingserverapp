@@ -1,0 +1,5 @@
+https://kind.sigs.k8s.io/
+
+https://kubevirt.io/quickstart_minikube/
+
+https://andreipope.github.io/tutorials/create-a-cluster-with-multipass-and-k3s.html
