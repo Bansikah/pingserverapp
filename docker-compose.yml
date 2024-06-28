@@ -21,3 +21,15 @@ services:
       - ping-net
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  serverappbackend:
+    image: bansikah/serverappbackend:v1.0
+    environment:
+      - APP_VERSION=0.0.1-SNAPSHOT
+    networks:
+      - ping-net
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.rule=Host(`backend.localhost`)"
+      - "traefik.http.services.backend.loadbalancer.server.port=8081"
+    restart: unless-stopped
